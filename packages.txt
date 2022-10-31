@@ -13,6 +13,7 @@ pulseaudio-alsa
 pavucontrol
 firefox-esr-bin
 network-manager-applet
+xbanish
 noto-fonts
 noto-fonts-emoji
 adobe-source-code-pro-fonts

@@ -7,5 +7,9 @@ xset b off
 xset s off
 
 dwmblocks &
+xbanish &
+
+test -s ~/.Xresources && xrdb ~/.Xresources.my
+test -s ~/.Xresources.my && xrdb -merge ~/.Xresources.my
 
 exec dwm
