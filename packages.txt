@@ -15,6 +15,7 @@ firefox-esr-bin
 network-manager-applet
 pulseeffects-legacy
 gst-plugins-good
+xcompmgr
 xbanish
 noto-fonts
 noto-fonts-emoji
