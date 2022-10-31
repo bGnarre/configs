@@ -1,0 +1,68 @@
+" basics
+set nocompatible
+filetype plugin indent on
+
+" colors
+syntax enable
+colorscheme default
+set background=light
+set t_Co=256
+
+" ops
+let c_comment_strings=1
+let mapleader = ","
+set encoding=utf-8
+set fileformat=unix
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set expandtab
+set shiftround
+set autoindent
+set smartindent
+set cindent
+if has('unix')
+	set dir=/tmp
+	set undodir=/tmp
+	set backupdir=/tmp
+elseif has('win32')
+	set dir="C:/tmp"
+	set undodir="C:/tmp"
+	set backupdir="C:/tmp"
+endif
+set swapfile
+set undofile
+set backup
+set nowritebackup
+set hidden
+set confirm
+set showmode
+set noshowmatch
+set incsearch
+set ignorecase
+set nosmartcase
+set nofoldenable
+set laststatus=0
+set ttyfast
+set lazyredraw
+set autoread
+set autowrite
+set complete-=i
+set display+=lastline
+set wrap
+set linebreak
+set scrolloff=2
+set sidescrolloff=5
+set novisualbell
+set noerrorbells
+set title
+set mouse=
+set tabpagemax=64
+set history=8192
+set formatoptions+=j
+set backspace=indent,eol,start
+set nottimeout
+set clipboard+=unnamedplus
+set nolangremap
+set nospell
