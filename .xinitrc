@@ -8,6 +8,7 @@ xset s off
 
 dwmblocks &
 xbanish &
+pulseeffects --gapplication-service &
 
 test -s ~/.Xresources && xrdb ~/.Xresources.my
 test -s ~/.Xresources.my && xrdb -merge ~/.Xresources.my
