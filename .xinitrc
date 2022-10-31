@@ -15,4 +15,6 @@ nm-applet &
 test -s ~/.Xresources && xrdb ~/.Xresources.my
 test -s ~/.Xresources.my && xrdb -merge ~/.Xresources.my
 
+test -s ~/.xinitrc.my && . ~/.xinitrc.my
+
 exec dwm
